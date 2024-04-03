@@ -19,11 +19,17 @@ def send_message_test(input_message):
     return response_content
 
 def main():
-    pass
+    
+    # Test for making a markdown file from the bots responses.
+    # Bot will then determine what the title should be then it will be made.
+    response_content = send_message_test(input("User: "))
+
+
+
+    print("Done")
 
 
 
 
-
-if "__name__" == "__main__":
+if __name__ == "__main__":
     main()
