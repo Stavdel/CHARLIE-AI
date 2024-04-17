@@ -152,6 +152,8 @@ Now that you've set up the Anthropic client and learned how to send messages to 
 Here's a simple example to get you started. Create a new file called `example.py` in the same directory as `bot_interactions.py` and `anthropic_client.py`, and add the following code:
 
 ```python
+import anthropic
+from anthropic_client import create_anthropic_client
 from bot_interactions import send_message_test
 
 def main():
