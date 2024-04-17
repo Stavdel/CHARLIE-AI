@@ -198,9 +198,9 @@ Feel free to modify the `message` variable in the `example.py` script to send di
 This is just a starting point! You can build upon this example and create your own custom scripts to interact with the bot in various ways. Here are a few ideas:
 
 - Create a command-line interface that allows users to enter messages interactively and receive responses from the bot.
-- Integrate the bot into a web application or chatbot interface.
-- Experiment with different prompts and messages to explore the bot's knowledge and capabilities.
-- Use the bot's responses to generate content, answer questions, or provide assistance in your own projects.
+- Integrate the bot to understand voice input through the microphone.
+- Add functionality for Charlie to [remember previous conversations](https://docs.anthropic.com/claude/reference/messages_post).
+- Give Charlie addional characteristics by [predetermining its responses](https://docs.anthropic.com/claude/reference/messages_post).
 
 The possibilities are endless! Have fun exploring and creating your own unique interactions with CHARLIE AI.
 
