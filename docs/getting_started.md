@@ -168,7 +168,7 @@ if __name__ == "__main__":
 
 In this example, we:
 
-1. Import the `send_message_test` function from the `bot_interactions` module.
+1. Import the `send_message_test` function from the `bot_interactions` module along with the other modules incase you wanted to experiment and add additional tests.
 
 2. Define the `main` function, which serves as the entry point of the script.
 
